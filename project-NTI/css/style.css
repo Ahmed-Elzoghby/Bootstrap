@@ -1,0 +1,91 @@
+:root{
+    --orange:#fa5640;
+    --bg-orange:#fa5640;
+    --color1:#009DED;
+    --color2:#0B5ED7;
+    --white:#dbcecc;
+    --color3:#00C2CB;
+}
+
+header{
+    width:100%;
+    }
+
+body{
+/* background: url('../images/bg-header.jpg') no-repeat right top/cover fixed; */
+background-color: #E1F3F8;
+padding-top: 50px;
+}
+
+.orange{
+color: var(--orange);
+}
+.bg-orange{
+background-color: var(--bg-orange);
+}
+.bg-header{
+background-color: #00C2CB;
+}
+
+input::content{
+background-color: #096a9b;
+}
+
+.card img{
+    transform:scale(.90);
+}
+
+.card img:hover{
+transform:scale(1);
+}
+.welcome{
+
+background-color:#096a9b ;
+color:#ccbdbb;
+}
+.welcome h2:hover{
+color: var(--orange);
+}
+
+footer,.navbar{
+width: 100%;
+background-color: var(--color2);
+}
+.nav-link{
+color: #dbcecc;
+}
+.navbar ul li:hover{
+background-color: var(--bg-orange);
+color: var(--white);
+}
+.dropdown-menu.show {
+width: 300px;
+}
+::-webkit-scrollbar{
+width: 12px;
+background-color:var(--color1)
+}
+::-webkit-scrollbar-thumb{
+background: var(--orange);
+border-radius: 10px;
+}
+.dropdown-item:hover{
+background-color: var(--bg-orange);
+color: var(--white);
+}
+.hr {
+margin: 0 auto;
+width: 12rem;
+border-bottom: 2px solid orangered;
+}
+.social{
+opacity: .7;
+}
+.social:hover{
+opacity: 1;
+-webkit-transform:scale(1.7) rotate(-45deg);
+-ms-transform:scale(1.7) rotate(-45deg);
+    transform:scale(1.7) rotate(-45deg);
+font-size: 1.7rem;
+}
+
